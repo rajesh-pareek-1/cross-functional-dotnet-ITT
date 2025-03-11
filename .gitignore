@@ -1,0 +1,36 @@
+# Ignore build and debug files
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# Ignore user-specific settings
+*.user
+*.suo
+*.vscode/
+*.vs/
+
+# Ignore temporary and OS-specific files
+*.log
+*.tmp
+Thumbs.db
+.DS_Store
+
+# Ignore dependency folders
+node_modules/
+packages/
+
+# Ignore compiled output
+*.o
+*.a
+*.lib
+*.nupkg
+
+# Keep only relevant .cs files and necessary project files
+!*.cs
+!*.csproj
+!*.sln
+!*.config
+!*.json
+!*.xml
